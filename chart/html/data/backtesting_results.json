@@ -1,0 +1,26 @@
+{
+    "backtestingResults": [
+        {
+            "Symbol": "BTC",
+            "Strategy": "Level Bounce",
+            "TF": "15, 30",
+            "ProfitLoss": "+31%",
+            "WinRate": "61%",
+            "Trades": 69,
+            "avgTimeHold": "3.3 min",
+            "Longs": 19,
+            "Shorts": 38
+        },
+        {
+            "Symbol": "DOGE",
+            "Strategy": "Margin Call Pullback",
+            "TF": "t150, 5, 15",
+            "ProfitLoss": "+69%",
+            "WinRate": "51%",
+            "Trades": 211,
+            "avgTimeHold": "1.1 min",
+            "Longs": 113,
+            "Shorts": 93
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="icon" type="image/x-icon" href="icons/favicon.ico" />
+        <script src="https://code.highcharts.com/stock/highstock.js"></script>
+        <script src="https://code.highcharts.com/stock/modules/data.js"></script>
+        <script src="https://code.highcharts.com/stock/modules/drag-panes.js"></script>
+        <script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
+        <script src="https://code.highcharts.com/stock/modules/accessibility.js"></script>
+        <script src="js/papaparse.min.js"></script>
+        <title>Harvester</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/chart.css" />
+    </head>
+    <body>
+        <div id="container" style="width: 100%; height: 800px"></div>
+
+        <br /><br />
+        <h1>Backtesting results</h1>
+        <div id="resultsTable"></div>
+
+        <script type="module" src="js/table.js"></script>
+        <script type="module" src="js/chart.js"></script>
+    </body>
+</html>

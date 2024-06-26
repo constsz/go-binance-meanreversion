@@ -1,0 +1,42 @@
+[
+ {
+  "Name": "Timestamp",
+  "Type": "ohlcv"
+ },
+ {
+  "Name": "Open",
+  "Type": "ohlcv"
+ },
+ {
+  "Name": "High",
+  "Type": "ohlcv"
+ },
+ {
+  "Name": "Low",
+  "Type": "ohlcv"
+ },
+ {
+  "Name": "Close",
+  "Type": "ohlcv"
+ },
+ {
+  "Name": "tm-0",
+  "Type": "TrendMove_TrendLine"
+ },
+ {
+  "Name": "tm-0",
+  "Type": "TrendMove_MoveLine"
+ },
+ {
+  "Name": "bb-0",
+  "Type": "BetterBands_LowBand"
+ },
+ {
+  "Name": "bb-0",
+  "Type": "BetterBands_HighBand"
+ },
+ {
+  "Name": "bb-0",
+  "Type": "BetterBands_Regime"
+ }
+]

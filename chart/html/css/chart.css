@@ -1,0 +1,206 @@
+input.highcharts-range-selector {
+    position: absolute;
+    border: 0;
+    width: 1px; /* Chrome needs a pixel to see it */
+    height: 1px;
+    padding: 0;
+    text-align: center;
+    left: -9em; /* #4798 */
+}
+
+.highcharts-crosshair-label text {
+    fill: #2b2a2a;
+    font-size: 1.1em;
+}
+
+.highcharts-crosshair-label .highcharts-label-box {
+    fill: inherit;
+}
+
+.highcharts-candlestick-series .highcharts-point {
+    stroke: rgb(201, 201, 201);
+    stroke-width: px;
+}
+
+.highcharts-candlestick-series .highcharts-point-up {
+    fill: #dfdfdf;
+}
+
+/* --------------------------------- */
+/* RANGE */
+
+.highcharts-navigator-mask-outside {
+    fill-opacity: 0;
+}
+
+.highcharts-navigator-mask-inside {
+    fill: rgba(255, 255, 255, 0.1); /* navigator.maskFill option */
+    fill-opacity: 0.25;
+    cursor: ew-resize;
+}
+
+.highcharts-navigator-outline {
+    stroke: #606063;
+    fill: none;
+}
+
+.highcharts-navigator-handle {
+    stroke: #606063;
+    fill: #505053;
+    cursor: ew-resize;
+}
+
+.highcharts-navigator-series {
+    fill: #7798bf;
+    stroke: #a6c7ed;
+}
+
+.highcharts-navigator-series .highcharts-graph {
+    stroke-width: 1px;
+}
+
+.highcharts-navigator-series .highcharts-area {
+    fill-opacity: 0.05;
+}
+
+.highcharts-navigator-xaxis .highcharts-axis-line {
+    stroke-width: 0;
+}
+
+.highcharts-navigator-xaxis .highcharts-grid-line {
+    stroke-width: 1px;
+    stroke: #707073;
+}
+
+.highcharts-navigator-xaxis.highcharts-axis-labels {
+    fill: #666;
+}
+
+.highcharts-navigator-yaxis .highcharts-grid-line {
+    stroke-width: 0;
+}
+
+.highcharts-scrollbar-thumb {
+    fill: #606063;
+    stroke: #606063;
+    stroke-width: 1px;
+}
+
+.highcharts-scrollbar-button {
+    fill: #707073;
+    stroke: #606063;
+    stroke-width: 1px;
+}
+
+.highcharts-scrollbar-arrow {
+    fill: #e0e0e3;
+}
+
+.highcharts-scrollbar-rifles {
+    stroke: #e0e0e3;
+    stroke-width: 1px;
+}
+
+.highcharts-scrollbar-track {
+    fill: #404043;
+    stroke: #404043;
+    stroke-width: 1px;
+}
+
+.highcharts-button {
+    fill: #505053;
+    stroke: #606063;
+    cursor: default;
+    stroke-width: 1px;
+    transition: fill 250ms;
+}
+
+.highcharts-button text {
+    fill: #ccc;
+}
+
+.highcharts-button-hover {
+    transition: fill 0ms;
+    fill: #707073;
+    stroke: #606063;
+}
+
+.highcharts-button-hover text {
+    fill: #fff;
+}
+
+.highcharts-button-pressed {
+    font-weight: bold;
+    fill: #000003;
+    stroke: #606063;
+}
+
+.highcharts-button-pressed text {
+    fill: #fff;
+    font-weight: bold;
+}
+
+.highcharts-button-disabled text {
+    fill: #ccc;
+}
+
+.highcharts-range-selector-buttons .highcharts-button {
+    stroke-width: 0px;
+}
+
+.highcharts-range-label rect {
+    fill: none;
+}
+
+.highcharts-range-label text {
+    fill: #e0e0e3;
+}
+
+.highcharts-range-input rect {
+    fill: none;
+}
+
+.highcharts-range-input text {
+    fill: silver;
+}
+
+.highcharts-range-input {
+    stroke-width: 1px;
+    stroke: #505053;
+}
+
+input.highcharts-range-selector {
+    position: absolute;
+    border: 0;
+    width: 1px; /* Chrome needs a pixel to see it */
+    height: 1px;
+    padding: 0;
+    text-align: center;
+    left: -9em; /* #4798 */
+}
+
+.highcharts-crosshair-label text {
+    fill: #2a2a2b;
+    font-size: 1.1em;
+}
+
+.highcharts-crosshair-label .highcharts-label-box {
+    fill: inherit;
+}
+
+.highcharts-flags-series .highcharts-point .highcharts-label-box {
+    stroke: #666;
+    fill: #2a2a2b;
+    transition: fill 250ms;
+}
+
+.highcharts-flags-series .highcharts-point-hover .highcharts-label-box {
+    stroke: #fff;
+    fill: #707073;
+}
+
+.highcharts-flags-series .highcharts-point text {
+    fill: #fff;
+    font-size: 0.9em;
+    font-weight: bold;
+}

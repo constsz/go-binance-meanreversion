@@ -1,0 +1,44 @@
+* {
+    font-family: "Inter";
+}
+body {
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
+    padding: 20px;
+
+    background: #131721;
+    color: #d1d4dc;
+}
+#container {
+    height: 400px;
+    min-width: 310px;
+}
+h1 {
+    font-size: 22px;
+}
+h2 {
+    font-size: 18px;
+}
+/* https://www.w3schools.com/html/html_table_borders.asp */
+table {
+    width: 100%;
+}
+table,
+th,
+td {
+    border: 1px solid rgb(51, 53, 56);
+    border-collapse: collapse;
+    font-weight: normal;
+}
+
+th {
+    color: #86878b;
+    text-align: left;
+    font-size: 12px;
+}
+td,
+th {
+    padding-left: 8px;
+    padding: 4px;
+}
